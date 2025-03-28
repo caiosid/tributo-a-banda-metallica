@@ -5,7 +5,7 @@ html {
 
 .container {
     max-width: 1100px;
-    background-color: #ddd;
+    background-color: #f4f1f1;
     position: relative;
     margin: 50px auto;
     padding: 20px 50px;
@@ -13,11 +13,6 @@ html {
 
 .bold {
     font-weight: bold;
-}
-
-.img-bold>img {
-    width: 100%;
-
 }
 
 /* header */
@@ -46,3 +41,50 @@ html {
     border-top: 1px dashed #DDD;
     border-bottom: 1px dashed #ddd;
 }
+
+/* Qoutes */
+.quotes-container{
+    background-color: #ddd;
+    padding: 30px;
+    margin-bottom: 15px;
+
+}
+.quotes-container > blockquote{
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.quotes-container > p{
+    font-style: italic;
+}
+
+/* Curiosidades */
+.curiosities-container{
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #DDD;
+    border-bottom: 1px dashed #DDD;
+
+}
+
+.curiosities-container  li{
+    height: 30px;
+}
+
+.paragraph-curiosities{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.img-bold {
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+.img-bold img {
+    width: 100%;
+}
+
